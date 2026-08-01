@@ -1,0 +1,147 @@
+//Finding Even or Odd Number
+-------------------------------
+import java.util.*;
+class Main {
+    public static void main (String [] args) {
+        Scanner obj = new Scanner(System.in);
+        int a = obj.nextInt();
+       
+        if(a%2==0)
+        System.out.println( a +"Even Number");
+        else
+        System.out.println( a +"odd Number");
+    }
+    
+}
+
+
+EQUAL OR NOT
+------------
+
+import java.util.*;
+class Main {
+    public static void main (String [] args) {
+        Scanner obj = new Scanner(System.in);
+        int a = obj.nextInt();
+        int b = obj.nextInt();
+        if(a==b)
+        System.out.println( a +" AND " + b  + " ARE EQUAL ");
+        else
+        System.out.println( a +" AND " + b + " ARE NOT EQUAL ") ;
+    }
+    
+}
+
+
+FIND GREATER VALUE
+------------------
+
+import java.util.*;
+class Main {
+    public static void main (String [] args) {
+        Scanner obj = new Scanner(System.in);
+        int a = obj.nextInt();
+        int b = obj.nextInt();
+        if(a>=b)
+        System.out.println( a +" is graterthan" + b );
+        else
+        System.out.println( a +"is Smallerthan " + b ) ;
+    }
+    
+}
+
+
+
+ELIGIBLE FOR VOTE
+---------------
+import java.util.*;
+class Main {
+    public static void main (String [] args) {
+        Scanner obj = new Scanner(System.in);
+        int age = obj.nextInt();
+        
+        if(age>=18)
+        System.out.println( age +" Eigible for vote" );
+        else
+        System.out.println( age +"Not Eligible for vote" ) ;
+    }
+    
+}
+
+
+
+CONDITION CHECKING
+------------------
+class Main {
+    public static void main(String [] args) {
+        if (2 + 2 == 4) {
+        System.out.println("welcome");
+        System.out.println("update your details");
+        }
+        else
+        System.out.println("thank you");
+    }
+}
+
+//factors of a given number
+---------------------------
+import java.util.*;
+class Main
+{
+    public static void main (String[] args){
+        Scanner obj = new Scanner(System.in);
+        int n = obj.nextInt();
+        
+        int i;
+        for(i=1;i<=n/2;i++){
+            if(n%i == 0)
+        
+        System.out.print(i + " "); 
+        }
+        System.out.println(n);
+        
+    }    
+}
+
+//to print factorial
+---------------------
+import java.util.*;
+class Main
+{
+    public static void main (String[] args){
+        Scanner obj = new Scanner(System.in);
+        
+        int n = obj.nextInt();
+        
+        int i,mult=1;
+        for(i=1;i<=n;i++){
+       
+        mult *= i; 
+        
+    
+        
+        System.out.print(mult + " "); 
+        }
+        
+        
+    }    
+}
+
+//to print tables
+-----------------
+import java.util.*;
+class Main
+{
+    public static void main (String[] args){
+        Scanner obj = new Scanner(System.in);
+        
+        int n = obj.nextInt();
+        int t = obj.nextInt();
+        int i;
+        
+        for(i=1;i<=n;i++)
+        System.out.printf("%d * %d = %d\n",i,t,i*t); 
+        
+        
+        
+    }
