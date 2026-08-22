@@ -1,4 +1,4 @@
-//Finding Even or Odd Number
+1//Finding Even or Odd Number
 -------------------------------
 import java.util.*;
 class Main {
@@ -15,7 +15,7 @@ class Main {
 }
 
 
-EQUAL OR NOT
+2 EQUAL OR NOT
 ------------
 
 import java.util.*;
@@ -33,7 +33,7 @@ class Main {
 }
 
 
-FIND GREATER VALUE
+3 FIND GREATER VALUE
 ------------------
 
 import java.util.*;
@@ -52,7 +52,7 @@ class Main {
 
 
 
-ELIGIBLE FOR VOTE
+4 ELIGIBLE FOR VOTE
 ---------------
 import java.util.*;
 class Main {
@@ -70,7 +70,7 @@ class Main {
 
 
 
-CONDITION CHECKING
+5 CONDITION CHECKING
 ------------------
 class Main {
     public static void main(String [] args) {
@@ -83,7 +83,7 @@ class Main {
     }
 }
 
-//factors of a given number
+6  //factors of a given number
 ---------------------------
 import java.util.*;
 class Main
@@ -103,7 +103,7 @@ class Main
     }    
 }
 
-//to print factorial
+7 //to print factorial
 ---------------------
 import java.util.*;
 class Main
@@ -127,7 +127,7 @@ class Main
     }    
 }
 
-//to print tables
+8 //to print tables
 -----------------
 import java.util.*;
 class Main
